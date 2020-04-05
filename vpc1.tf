@@ -13,6 +13,6 @@ provider "aws" {
 }
 
 module "create_vpc1" {
-  source "./modules/mod_vpc"
+  source = "./modules/mod_vpc"
   params = local.params
 }

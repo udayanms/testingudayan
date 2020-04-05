@@ -4,3 +4,6 @@ variable "AccessKey" {
 variable "SecretKey" {
   type = any
 }
+variable "Region" {
+  type = any
+}

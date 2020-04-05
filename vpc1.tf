@@ -3,7 +3,7 @@ locals {
         create_vpc =  true
         cidr_block = "10.0.0.0/16"
     }
-    params = vpc_conf
+    params = local.vpc_conf
 }
 
 provider "aws" { 
